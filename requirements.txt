@@ -1,0 +1,5 @@
+streamlit>=1.37
+pandas>=2.0
+# duckdb 只被 tools/build_snapshot.py（本机刷快照）和 app.py 的可选直连模式使用；
+# 快照模式（Streamlit Cloud 默认）不需要它，装上无妨。
+duckdb>=1.0

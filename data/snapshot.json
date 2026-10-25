@@ -1,0 +1,432 @@
+{
+  "generated_at_jst": "2026-10-25T13:53:17+09:00",
+  "db": {
+    "available": true,
+    "file_name": "cbintel.duckdb",
+    "size_mb": 445.4,
+    "mtime_jst": "2026-10-25T13:44:48+09:00",
+    "tables": {
+      "dim_supplier": 46639,
+      "fct_contract": 256279,
+      "mart_muni_goods_leads": 14,
+      "mart_open_goods_tenders": 357,
+      "mart_supplier_leaderboard": 3793,
+      "mart_supplier_segment": 4696,
+      "ref_muni_category_map": 8,
+      "ref_unspsc_segment": 57,
+      "stg_award_notices": 135400,
+      "stg_contract_history": 509389,
+      "stg_muni_tenders": 3665,
+      "stg_tenders": 920,
+      "stg_tenders_latest": 903
+    },
+    "federal": {
+      "contracts": 256279,
+      "goods_contracts": 123950,
+      "total_value_b_cad": 402.93,
+      "suppliers": 46639,
+      "leaderboard_rows": 3793,
+      "leaderboard_segments": 32,
+      "top_segments": [
+        {
+          "segment_zh": "车辆及零配件",
+          "segment_en": "Commercial, military and private vehicles and parts",
+          "n_suppliers": 998,
+          "value_m_cad": 19816.8
+        },
+        {
+          "segment_zh": "实验室及检测测量仪器",
+          "segment_en": "Laboratory, measuring, observing and testing equipment",
+          "n_suppliers": 745,
+          "value_m_cad": 679.2
+        },
+        {
+          "segment_zh": "IT、通信及广播设备",
+          "segment_en": "IT, broadcasting and telecommunications",
+          "n_suppliers": 598,
+          "value_m_cad": 839.5
+        },
+        {
+          "segment_zh": "安防、安全及防护装备（劳保等）",
+          "segment_en": "Defense, law enforcement, security and safety equipment",
+          "n_suppliers": 266,
+          "value_m_cad": 1932.6
+        },
+        {
+          "segment_zh": "家具及软装",
+          "segment_en": "Furniture and furnishings",
+          "n_suppliers": 194,
+          "value_m_cad": 186.4
+        },
+        {
+          "segment_zh": "物料搬运、仓储设备",
+          "segment_en": "Material handling, conditioning and storage machinery",
+          "n_suppliers": 175,
+          "value_m_cad": 80.0
+        },
+        {
+          "segment_zh": "暖通空调、泵阀、管道系统",
+          "segment_en": "Distribution and conditioning systems (HVAC, pumps, pipes)",
+          "n_suppliers": 150,
+          "value_m_cad": 97.2
+        },
+        {
+          "segment_zh": "印刷、摄影及音视频设备",
+          "segment_en": "Printing, photographic and audio/visual equipment",
+          "n_suppliers": 138,
+          "value_m_cad": 22.0
+        },
+        {
+          "segment_zh": "工业制造及加工机械",
+          "segment_en": "Industrial manufacturing and processing machinery",
+          "n_suppliers": 126,
+          "value_m_cad": 43.0
+        },
+        {
+          "segment_zh": "电气系统及照明",
+          "segment_en": "Electrical systems, lighting and components",
+          "n_suppliers": 115,
+          "value_m_cad": 66.6
+        },
+        {
+          "segment_zh": "医疗设备及耗材",
+          "segment_en": "Medical equipment, accessories and supplies",
+          "n_suppliers": 109,
+          "value_m_cad": 42.7
+        },
+        {
+          "segment_zh": "制造零部件及耗材（五金、轴承、紧固件等）",
+          "segment_en": "Manufacturing components and supplies",
+          "n_suppliers": 108,
+          "value_m_cad": 81.1
+        },
+        {
+          "segment_zh": "建筑结构件及建材",
+          "segment_en": "Structures, building and construction components",
+          "n_suppliers": 103,
+          "value_m_cad": 90.1
+        },
+        {
+          "segment_zh": "发电及配电设备",
+          "segment_en": "Power generation and distribution machinery",
+          "n_suppliers": 95,
+          "value_m_cad": 139.8
+        },
+        {
+          "segment_zh": "农林牧渔机械",
+          "segment_en": "Farming, fishing, forestry and wildlife machinery",
+          "n_suppliers": 75,
+          "value_m_cad": 16.9
+        }
+      ],
+      "open_goods_tenders": 357,
+      "open_goods_tenders_china_fit": 300
+    },
+    "municipal": {
+      "snapshot_rows": 3665,
+      "tenders_deduped": 1239,
+      "goods_native_deduped": 102,
+      "last_scraped_at_jst": "2026-10-25T04:44:30.541270",
+      "by_portal": [
+        {
+          "portal": "toronto_opendata",
+          "rows": 2733
+        },
+        {
+          "portal": "bidsandtenders",
+          "rows": 932
+        }
+      ],
+      "leads_count": 14,
+      "leads_total_cad": 20852289,
+      "leads": [
+        {
+          "buyer": "City of Toronto",
+          "title": "This RFP is an invitation by the City of Toronto to prospective suppliers to submit Bids for the provision of Laundry Services including the Rental of Linens for the City of Toronto's Senior Services",
+          "supplier": "ECOTEX HEALTHCARE LINEN SERVICE LP",
+          "value_cad": 9357278.0,
+          "segment_zh": "服装、箱包及个人护理用品",
+          "award_date": "2025-05-01",
+          "status": "Awarded"
+        },
+        {
+          "buyer": "City of Toronto",
+          "title": "This negotiated RFP is an invitation by the City of Toronto (the “City”) to prospective suppliers to submit Bids for the non-exclusive Supply, Delivery and Installation of Office Furniture and Task Ch",
+          "supplier": "POI BUSINESS INTERIORS LP",
+          "value_cad": 6642284.0,
+          "segment_zh": "家具及软装",
+          "award_date": "2026-03-11",
+          "status": "Awarded"
+        },
+        {
+          "buyer": "City of Toronto",
+          "title": "Request for Quotations for the non-exclusive supply and delivery of Toilet Paper, Paper Towel, other Toiletries and Dispensers",
+          "supplier": "MCL - MISTER CHEMICAL LTD",
+          "value_cad": 2562873.0,
+          "segment_zh": "清洁设备及用品",
+          "award_date": "2025-01-08",
+          "status": "Awarded"
+        },
+        {
+          "buyer": "City of Toronto",
+          "title": "Request for Quotations for the Supply, Delivery, and Warranty of Service Carts, Hampers, and Linen Carts",
+          "supplier": "ACART EQUIPMENT LTD.",
+          "value_cad": 465636.26,
+          "segment_zh": "服装、箱包及个人护理用品",
+          "award_date": "2025-07-08",
+          "status": "Awarded"
+        },
+        {
+          "buyer": "City of Toronto",
+          "title": "For the non-exclusive supply, delivery, and setting in place of a Heavy Duty Washer Extractor, Two (2) Product Liquid Chemical Dispenser, Drying Cabinet; and on-site training for a period of one (1) y",
+          "supplier": "Harco Co Ltd",
+          "value_cad": 350656.0,
+          "segment_zh": "家具及软装",
+          "award_date": "2025-09-26",
+          "status": "Awarded"
+        },
+        {
+          "buyer": "City of Toronto",
+          "title": "non-exclusive supply and delivery of Security Uniform Accessories for PMMD Stores",
+          "supplier": "UNISYNC GROUP LIMITED",
+          "value_cad": 323642.7,
+          "segment_zh": "服装、箱包及个人护理用品",
+          "award_date": "2025-03-12",
+          "status": "Awarded"
+        },
+        {
+          "buyer": "City of Toronto",
+          "title": "The scope of this RFQ includes to provide Laundering, Dry Cleaning, Pressing Services and  Alteration of uniform clothing on an as and when required basis tor the City of Toronto  Paramedic Services D",
+          "supplier": "Stitch it Canadas Tailor Inc",
+          "value_cad": 315220.0,
+          "segment_zh": "服装、箱包及个人护理用品",
+          "award_date": "2025-01-16",
+          "status": "Awarded"
+        },
+        {
+          "buyer": "City of Toronto",
+          "title": "This Request for Quotation (the \"RFQ\") is an invitation by the City of Toronto (the \"City\") to prospective Suppliers to submit bids for the non-exclusive supply and delivery of Particulate Masks and R",
+          "supplier": "HANSLER SMITH LIMITED",
+          "value_cad": 287337.81,
+          "segment_zh": "安防、安全及防护装备（劳保等）",
+          "award_date": "2025-03-24",
+          "status": "Awarded"
+        },
+        {
+          "buyer": "City of Toronto",
+          "title": "Request for Quotations for the Supply, Delivery, and Warranty of Service Carts, Hampers, and Linen Carts",
+          "supplier": "STEVENS COMPANY LTD",
+          "value_cad": 152923.06,
+          "segment_zh": "服装、箱包及个人护理用品",
+          "award_date": "2025-07-08",
+          "status": "Awarded"
+        },
+        {
+          "buyer": "City of Toronto",
+          "title": "Request for Quotations for the Supply, Delivery, and Warranty of Service Carts, Hampers, and Linen Carts",
+          "supplier": "MIP INC",
+          "value_cad": 140121.76,
+          "segment_zh": "服装、箱包及个人护理用品",
+          "award_date": "2025-07-08",
+          "status": "Awarded"
+        },
+        {
+          "buyer": "City of Toronto",
+          "title": "For the non-exclusive supply, delivery, assembly, and installation of spring/summer/winter  established hanging baskets, onto existing hardware, in various locations,  throughout various Business Impr",
+          "supplier": "TRUSERVE GROUNDSCARE INC OA CLINTAR LANDSCAPE MANAGEMENT",
+          "value_cad": 105569.0,
+          "segment_zh": "工具及通用机械",
+          "award_date": "2025-01-07",
+          "status": "Awarded"
+        },
+        {
+          "buyer": "City of Toronto",
+          "title": "non-exclusive supply and delivery of Bottled Water for the City of Toronto's Purchasing and Materials Management (Stores) Divisio",
+          "supplier": "GUILLEVIN INTERNATIONAL CO",
+          "value_cad": 57462.0,
+          "segment_zh": "电气系统及照明",
+          "award_date": "2025-02-12",
+          "status": "Awarded"
+        },
+        {
+          "buyer": "City of Toronto",
+          "title": ".1\tThis Request for Quotation (the \"RFQ\") is an invitation by the City of Toronto (the \"City\") to prospective Suppliers to submit bids for The non-exclusive supply and delivery of Linens (Pillowcases,",
+          "supplier": "GEORGE COUREY INC.",
+          "value_cad": 51073.0,
+          "segment_zh": "服装、箱包及个人护理用品",
+          "award_date": "2024-11-12",
+          "status": "Awarded"
+        },
+        {
+          "buyer": "City of Toronto",
+          "title": "Request for Quotations for the Supply, Delivery, and Warranty of Service Carts, Hampers, and Linen Carts",
+          "supplier": "FIVE STAR ENTERPRISE, DIV OF",
+          "value_cad": 40212.0,
+          "segment_zh": "服装、箱包及个人护理用品",
+          "award_date": "2025-07-08",
+          "status": "Awarded"
+        }
+      ]
+    }
+  },
+  "content": {
+    "available": true,
+    "issues": [
+      {
+        "name": "issue-001-sample.md",
+        "is_dir": false,
+        "mtime_jst": "2026-10-24T07:36:46+09:00"
+      }
+    ],
+    "issues_count": 1,
+    "latest_issue": "issue-001-sample.md",
+    "seen_file_kb": 209,
+    "seen_entries": 23,
+    "sources_count": 23
+  },
+  "crons": [
+    {
+      "id": "cadb2b-muni-scan",
+      "title": "cadb2b 市级 GOODS 标扫描（周一/四）",
+      "owner": "goal:cadb2b",
+      "enabled": true,
+      "schedule": {
+        "kind": "weekly",
+        "time": "09:23:00",
+        "dow": [
+          "Mon",
+          "Thu"
+        ]
+      },
+      "schedule_human": "每周周一/周四 09:23",
+      "next_run_jst": "2026-10-26T09:23+09:00"
+    },
+    {
+      "id": "cadb2b-content-weekly-digest",
+      "title": "cadb2b 内容引擎周更出稿",
+      "owner": "goal:cadb2b",
+      "enabled": true,
+      "schedule": {
+        "kind": "weekly",
+        "time": "08:23:00",
+        "dow": [
+          "Mon"
+        ]
+      },
+      "schedule_human": "每周周一 08:23",
+      "next_run_jst": "2026-10-26T08:23+09:00"
+    },
+    {
+      "id": "rbc-prepay-window-2027-01",
+      "title": "RBC 房贷 4 月提前还款（约 6 万加币，资金应已攒齐）",
+      "owner": "goal:goal",
+      "enabled": true,
+      "schedule": {
+        "kind": "runonce",
+        "at": "2027-04-26T09:23:00"
+      },
+      "schedule_human": "一次：2027-04-26 09:23",
+      "next_run_jst": "2027-04-26T09:23"
+    },
+    {
+      "id": "zensurance-renewal-day-check",
+      "title": "Zensurance 续保最终确认检查（续保日后）",
+      "owner": "goal:zensurance-insurance-renewal",
+      "enabled": true,
+      "schedule": {
+        "kind": "runonce",
+        "at": "2026-10-27T09:00:00"
+      },
+      "schedule_human": "一次：2026-10-27 09:00",
+      "next_run_jst": "2026-10-27T09:00"
+    },
+    {
+      "id": "space-daily-refresh",
+      "owner": "space:space",
+      "enabled": true,
+      "schedule": {
+        "kind": "daily",
+        "time": "08:23:00"
+      },
+      "schedule_human": "每天 08:23",
+      "next_run_jst": "2026-10-26T08:23+09:00"
+    },
+    {
+      "id": "weekly-niche-idea",
+      "title": "每周一个新点子",
+      "owner": "goal:cross-border-trade-product-selection",
+      "enabled": true,
+      "schedule": {
+        "kind": "weekly",
+        "time": "11:23:00",
+        "dow": [
+          "Sat"
+        ]
+      },
+      "schedule_human": "每周周六 11:23",
+      "next_run_jst": "2026-10-31T11:23+09:00"
+    },
+    {
+      "id": "overnight-cleanup-morning-report",
+      "title": "邮箱清理明晨汇报",
+      "owner": "goal:goal-2",
+      "enabled": false,
+      "schedule": {
+        "kind": "runonce",
+        "at": "2026-10-24T06:23:00"
+      },
+      "schedule_human": "一次：2026-10-24 06:23",
+      "next_run_jst": "2026-10-24T06:23"
+    }
+  ],
+  "contract": {
+    "available": true,
+    "profile_files": [
+      "braintrust-application.md",
+      "master-profile.md",
+      "toptal-application.md"
+    ],
+    "leads_files": 0,
+    "scan_spec": true
+  },
+  "status": {
+    "_说明": "手工维护的状态区：平台进度与房贷数字都改这里，然后跑 python tools/build_snapshot.py 刷新快照。日期为事实发生日。",
+    "mortgage": {
+      "balance_cad": 210000,
+      "bank": "RBC（Mississauga 房产）",
+      "last_prepay": "2026-10-18 已还 CAD 56,000 并入账",
+      "monthly_payment_cad": 1642,
+      "next_prepay_cad": 60000,
+      "next_prepay_note": "提前还款窗口 2027-01-11 已开；等金融机构合同收入（USD 6,600/月）攒齐约 6 万后 4 月执行；若合同续约，年底再约 6 万。",
+      "next_prepay_when": "2027 年 4 月",
+      "original_principal_cad": 640000,
+      "rate_note": "3.92% 固定 3 年（2026-01 起），每月 11 号扣款",
+      "updated": "2026-10-25"
+    },
+    "platforms": {
+      "braintrust": {
+        "availability": "每周上限 20 小时；项目制 2–3 个月",
+        "done": [
+          "账号已登录（2026-10-25，原密码可用，账号为本人旧账号）",
+          "资料包已备齐并推送（de-projects 仓库：9 年履历 / Pernod Ricard Japan 已确认）"
+        ],
+        "name": "Braintrust",
+        "pending": [
+          "Profile 按资料包填写（进行中）",
+          "AI Skills Interview（需 Qian 本人完成）",
+          "身份验证（未做）",
+          "收款银行绑定（未做，有收入后再办）"
+        ],
+        "rate": "USD 95/hr（草稿价，可改）",
+        "status": "进行中",
+        "updated": "2026-10-25"
+      },
+      "toptal": {
+        "name": "Toptal",
+        "note": "2026-10-25 Qian 决定放弃：2025-05 的旧申请已被关闭，密码重置链接反复失效。接单线只推进 Braintrust。",
+        "status": "已搁置",
+        "updated": "2026-10-25"
+      }
+    }
+  }
+}
